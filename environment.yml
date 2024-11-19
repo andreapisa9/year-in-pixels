@@ -1,0 +1,9 @@
+name: pixels
+
+dependencies:
+  - python=3.9.6
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
