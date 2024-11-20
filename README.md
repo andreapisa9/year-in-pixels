@@ -17,13 +17,13 @@ Once you have enough data tracked (mind that the code is designed to be used onc
 
 ### Obtaining your Pixels Data
 
-In order to use the code in this repo, you will have to export data from your Pixels app. You can do so by going to the Settings, scrolling down to the bottom and clicking "Export Pixels". You will obtain a JSON file. Once you have it, you should create a folder named `.env` in your local repo clone (if you don't know what a repo clone is, you haven't googled "git clone tutorial" yet and should do so) and place the JSON file inside the `.env` folder. Rename the file as follows: `data_YEAR.json`. Replace `YEAR` with the year you want to analyze (use 4 digits).
+In order to use the code in this repo, you will have to export data from your Pixels app. You can do so by going to the Settings, scrolling down to the bottom and clicking "Export Pixels". You will obtain a JSON file. Once you have it, you should create a folder named `data` in your local repo clone (if you don't know what a repo clone is, you haven't googled "git clone tutorial" yet and should do so) and place the JSON file inside the `data` folder. Rename the file as follows: `data_YEAR.json`. Replace `YEAR` with the year you want to analyze (use 4 digits).
 
 #### At the end of this step, you should have:
 
 - A local repo clone
-    - Containing a `.env` folder (alongside all downloaded content)
-        - The `.env` folder should contain a `data_YEAR.json` file with your Pixels export.
+    - Containing a `data` folder (alongside all downloaded content)
+        - The `data` folder should contain a `data_YEAR.json` file with your Pixels export.
 
 ### Installing the Python Environment
 

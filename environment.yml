@@ -1,5 +1,7 @@
 name: pixels
-
+channels:
+  - default
+  - conda-forge
 dependencies:
   - python=3.9.6
   - numpy
@@ -7,3 +9,5 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
+  - python-dotenv
+  - conda-forge::ipykernel
