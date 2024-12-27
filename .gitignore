@@ -3,11 +3,5 @@
 data/
 pixels_grid.*
 script.py
-avg_ratings_per_year.*
-avg_rating_curr_year.*
-avg_ratings_per_weekday.*
-activity_frequency.*
-avg_productivity_per_weekday.*
-avg_productivity_per_year.*
-emotion_frequency.*
-rating_frequency_pie_chart.*
+*.svg
+*.png
