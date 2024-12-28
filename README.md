@@ -52,7 +52,7 @@ conda list
 #### At the end of this step, you should have:
 
 - A project folder structured as shown in the previous step;
-- A `conda` environment called `pixels` with 9 libraries installed.
+- A `conda` environment called `pixels` with 10 libraries installed.
 
 ### Installing an IDE
 
