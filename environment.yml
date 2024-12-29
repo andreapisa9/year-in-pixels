@@ -11,5 +11,8 @@ dependencies:
   - seaborn
   - python-dotenv
   - wordcloud
+  - plotly
+  - nbformat
   - conda-forge::ipykernel
   - pip::mplcairo=0.6.1
+  - pip::kaleido=0.2.1

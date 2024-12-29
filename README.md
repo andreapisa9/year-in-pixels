@@ -3,6 +3,8 @@
 
 DISCLAIMER: This repo is free to use and open source, BUT it's licensed with special conditions. Please, read the LICENSE file carefully before using it. If you intentionally break the terms and conditions, I WILL track you down and sue you up the wazoo 😊
 
+DISCLAIMER PT. 2: the code is temporarily **only functional on Macs**. See the bottom of this file to know why and what you can do to help me make it fully portable.
+
 ## How to Use
 
 I tried to make my code as easy to use as possible, just know that there is a little bit of work to do, though. Room for improvement!
@@ -52,7 +54,7 @@ conda list
 #### At the end of this step, you should have:
 
 - A project folder structured as shown in the previous step;
-- A `conda` environment called `pixels` with 10 libraries installed.
+- A `conda` environment called `pixels` with 12 libraries installed.
 
 ### Installing an IDE
 
@@ -70,8 +72,14 @@ Finally, you are able to run the code! To do so, you should open Jupyter Noteboo
 
 ## Support
 
-If you find any problem with the code that you aren't able to overcome on your own or with the help of ChatGPT, come back to this webpage and open an Issue describing your problem (you don't kow how to open an issue? Search "github how to open issue" online). I will try to come back to you as soon as I can to support and fix the code if needed.
+If you find any problem with the code that you aren't able to overcome on your own or with the help of ChatGPT, come back to this webpage and open an Issue describing your problem (you don't kow how to open an issue? Search "github how to open issue" online). I will try to come back to you as soon as I can to support and fix the code if needed. Mind you this is a passion project, so I won't be able to dedicate much time to it. I'll come around to fixing things whenever possible.
 
 If you are able to fix the code on your own, please open an Issue where you describe both problem and solution. I'll check it out and if I find it to be a meaningful contribution to the project, I'll let you open a Pull Request so you can both publish your fix and appear as a contributor.
+
+## Wanted Contributions
+
+### OS Portability
+
+Right now, the code is **only functional for Macs** due to the emoji font I'm using. I'd like the help of someone who doesn't own just a Mac in order to make the code fully portable to any OS.
 
 # HAVE FUN!
