@@ -56,19 +56,26 @@ conda list
 - A project folder structured as shown in the previous step;
 - A `conda` environment called `pixels` with 12 libraries installed.
 
-### Installing an IDE
+### Installing an IDE (OPTIONAL)
 
-The final installation you will need to run the code consists of a program which is able to open Jupyter Notebook files. You can choose among a large pool of such programs. I suggest to directly use Jupyter Notebook itself. It's not the easiest to use, but it's on the easy side of the spectrum and won't install any bloatware you don't need. For guides on how to install Jupyter Notebook, you can search "install jupyter notebook [YOUR OS]" online, just like before.
+This step is not needed if you don't care about reading the code and understanding how I reasoned.
+
+The final installation you will need to run the code consists of a program which is able to open Python files. You can choose among a large pool of such programs. I suggest to use Visual Studio Code or PyCharm. They are on the easy side of the spectrum. For guides on how to install them, you can search "install [vs code OR pycharm] [YOUR OS]" online, just like before.
 
 #### At the end of this step, you should have:
 
 - A project folder with the code and your Pixels data export as shown two steps ago;
 - A working `conda` environment as shown in the previous step;
-- An Interactive Development Environment able to process Jupyter Notebook files, such as Jupyter Notebook itself.
+- An Interactive Development Environment able to process Python files, such as Visual Studio Code.
 
 ### Generating the Visualizations
 
-Finally, you are able to run the code! To do so, you should open Jupyter Notebook in a Terminal console; from Jupyter, you then need to open the `visualizations.ipynb` file. Once you have done that, you should select the `pixels` environment as working kernel on the top-right of the page, and finally, you can run every code cell of the notebook, by either clicking the "Play" button you find on the left of each cell or by clicking the "Fast-forward" button once (you can find it on the top of the page).
+Finally, you are able to run the code! To do so, you should open a Terminal console starting from the project's folder; you should then run the following commands:
+
+```bash
+conda activate pixels
+python3 main.py
+```
 
 ## Support
 
