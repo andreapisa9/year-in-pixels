@@ -1,6 +1,8 @@
 # 📆 Year in Pixels
 ## Data driven visualizations that summarize your year!
 
+![pixels_grid](https://github.com/user-attachments/assets/c8d21a82-8aae-49d2-8d91-f900d6c2d678)
+
 DISCLAIMER: This repo is free to use and open source, BUT it's licensed with special conditions. Please, read the LICENSE file carefully before using it. If you intentionally break the terms and conditions, I WILL track you down and sue you up the wazoo 😊
 
 DISCLAIMER PT. 2: the code is temporarily **only functional on Macs**. See the bottom of this file to know why and what you can do to help me make it fully portable.
